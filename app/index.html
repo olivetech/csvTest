@@ -1,0 +1,19 @@
+<html ng-app="app">
+
+<head>
+    <script src="lib/angular/angular.js"></script>
+    <script src="FileSaver.js"></script>
+    <script src="app.js"></script>
+</head>
+
+<body ng-controller="AppController as vm">
+<p>
+    This simple app will do an $http GET to the api/csv endpoint.
+    You should see a file download dialog appear.
+</p>
+<div>
+    <button ng-click="vm.get()">Get File</button>
+</div>
+</body>
+
+</html>

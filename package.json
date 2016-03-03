@@ -1,0 +1,25 @@
+{
+  "name": "csv-test",
+  "version": "1.0.0",
+  "description": "Demonstrates a CSV file transfer from a server to AngularJS for testing Safari behavior",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olivetech/csvTest.git"
+  },
+  "author": "J.P. Poveda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/olivetech/csvTest/issues"
+  },
+  "homepage": "https://github.com/olivetech/csvTest#readme",
+  "dependencies": {
+    "angular": "^1.5.0",
+    "crayon-terminal": "^3.0.1",
+    "express": "^4.13.4",
+    "nconf": "^0.8.4"
+  }
+}
