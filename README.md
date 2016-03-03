@@ -1,13 +1,3 @@
-# Warning / Purpose
-Obviously, this is a minimalistic implementation of an AngularJS app and a NodeJS server.
-You would never want to actually implement either this way. The point is simply to
-demonstrate how to implement a client side file download from csv data sent back from
-a REST api as a CSV.
-
-If you implement a production system using this project as a template, slap yourself
-in the face, then apologize to yourself and the rest of humanity for the pain you have
-unleashed upon the world. ;)
-
 # Background
 What needs to happen is csv data is sent to the AngularJS single page application.
 
